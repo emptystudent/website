@@ -422,13 +422,19 @@ nav .fas{
 }
 /* Add some styles to an element */
 .external-link-icon {
-    font-size: 30px; /* Adjust the size as needed */
-    color: #008000; /* Set the color */
-}
+    /* Add your preferred styles here */
+    /* For example: */
+    display: inline-block;
+    width: 10px; /* Adjust size as needed */
+    height: 10px; /* Adjust size as needed */
+    background-image: url('path_to_your_icon_image.png'); /* Replace with your icon image */
+    /* Additional styles such as color, padding, margin, etc. */
+  }
+  
 
 /* Use Font Awesome classes for icons */
 .external-link-icon::before {
     content: '\f35d'; /* Unicode character for the "external-link-alt" icon */
     font-family: 'Font Awesome 5 Free'; /* Specify the Font Awesome font family */
     font-weight: 900; /* Specify the font weight */
-}
+  }
